@@ -4,9 +4,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Put {
-	@RequestMapping("/aa")
-	public String aa(){
-		return "嘿嘿老兄";
-	}
+public class But {
+@RequestMapping("/bb")
+public String bb(){
+	return "可想而知";
+}
 }
